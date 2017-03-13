@@ -1,53 +1,71 @@
 * {
 	transition: all .1s ease-in;
+	margin: 0;
 	padding: 0;
-    margin: 0 auto;
 }
 
 html, body {
 	font-family: Arial, sans-serif;
 	background-color: #F1F1F1;
-	width: 100%;
+	height: 100%;
+}
+
+body {
 	color: #C2C2C2;
 }
 
+/*.container {
+	width: 80%;
+	margin: 0 auto;
+}*/
 
 .search-block {
-	width: calc(100%-200px);
-	margin-top: 25px;
+	padding-top: 20px;
 	display:block;
 	margin-bottom: 25px;
-	margin-left: 100px;
-	margin-right: 100px;
-	height: 100%;
+	height: 50%;
+	margin-left: 5%;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .search_form {
 	color: #c2c2c2;
 	border-style: none;
-	width: 70%;
 	font-size: 56px;
-	background-color: #F1F1F1;
+	background-color: transparent;
+	font-weight: 700;
+	outline: none;
+	dispaly: inline-block;
+	vertical-align: top;
 }
 
 .button {
 	background-color: #F1F1F1;
-	width: 10%;
-	margin-left: 5%;
 	border:0;
+	width: 80px;
+	height: 80px;
+}
+
+.button img {
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	width: auto;
 }
 
 .search-lists {
-	width: calc(100% - 200px);
 	display:inline-block;
 	box-sizing:border-box;
-	margin-left: 100px;
-	margin-right: 100px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 div {
 	box-sizing:border-box;
-	height: 100%;
 }
 
 h2 {
@@ -58,15 +76,22 @@ h2 {
 ul {
 	list-style:none;
 	font-size: 0px;	
-	width: 100%;
 	display:inline-block;
+	padding: 0;
+	margin: 0;
 }
 
 li {
-	margin-top:5px;
+	margin-bottom:5px;
 	background-color: rgba(118,117,128,0.05);
 	color: #B8B8BA;
-	font-size: 18px;
+	font-size: 0px;
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	margin-bottom: 5px;
+	padding: 12px 5px;
+	min-height: 60px;
 }
 
 li:hover {
@@ -77,6 +102,10 @@ li:hover {
 .avatar {
 	border-radius: 100px;
 	border: 1px solid #EBEBED;
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+	padding: 0px;
 }
 
 input:focus {
@@ -87,20 +116,34 @@ input:focus {
 .column-1, .column-2, .column-3 {
 	margin-top: 15px;
 	display: inline-block;
-	margin-bottom: 50px;
-	min-height: 80%;
+	vertical-align: top;
 }
-
 .column-1 {
-width: 25%;
+width: 30%;
 }
 
 .column-2 {
-	width: 25%;
-	margin-left: 5%;
+	width: 30%;
+	margin-left: 3%;
+
 }
 
 .column-3  {
-	width: 25%;
-	margin-left: 10%;
+	width: 30%;
+	margin-left: 3%;
+}
+
+.image-container {
+	width: 50px;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+p {
+	display: inline-block;
+	width: 100%;
+	font-size: 16px;
+	vertical-align: middle;
+	padding-left: 20px;
+	position: absolute;
 }
